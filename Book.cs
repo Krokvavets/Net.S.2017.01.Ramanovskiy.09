@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
+    [Serializable]
     public class Book : IFormattable, IComparable, IComparable<Book>
     {
+        public const string xmlName = "Book";
         public string Name { get; set; }
         public string Author { get; set; }
         public string Genre { get; set; }

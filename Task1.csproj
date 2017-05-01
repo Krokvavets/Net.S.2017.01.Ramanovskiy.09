@@ -40,11 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinarySerializableBookListStorage.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="BookListService.cs" />
     <Compile Include="BookListStorage.cs" />
     <Compile Include="ICustomerStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XMLBookListStorage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
